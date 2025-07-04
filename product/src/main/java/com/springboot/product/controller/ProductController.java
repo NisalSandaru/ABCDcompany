@@ -20,7 +20,7 @@ public class ProductController {
     }
 
     @GetMapping("/product/{productId}")
-    public ProductDTO getproductById(@PathVariable Integer productId) {
+    public ProductDTO getProductById(@PathVariable Integer productId) {
         return productService.getProductById(productId);
     }
 
